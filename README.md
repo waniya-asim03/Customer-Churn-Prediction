@@ -1,50 +1,37 @@
-📊 Task 03: Customer Churn Prediction
-📌 Objective
+## 📊 Task 03: Customer Churn Prediction
 
-Predict whether a customer is likely to leave the bank using a Logistic Regression classification model.
+### 📌 Objective
 
-📁 Dataset
+Predict whether a customer is likely to leave the bank using a **Logistic Regression** classification model.
 
-Bank Customer Churn Dataset
+### 📁 Dataset
 
-Contains demographic and financial information such as age, balance, tenure, geography, and activity status
+* Bank Customer Churn Dataset
+* Contains demographic and financial information such as age, balance, tenure, geography, and activity status
+* Target variable: **Exited (Churn)**
 
-Target variable: Exited (Churn)
+### 🛠 Tools Used
 
-🛠 Tools Used
+* Python
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
 
-Python
+### 🔍 Work Done
 
-pandas
+* Loaded and explored the dataset
+* Removed irrelevant features
+* Encoded categorical variables
+* Performed train-test split and feature scaling
+* Trained a Logistic Regression model
+* Evaluated the model using:
 
-numpy
+  * Accuracy score
+  * Confusion matrix
+  * Classification report
 
-matplotlib
-
-seaborn
-
-scikit-learn
-
-🔍 Work Done
-
-Loaded and explored the dataset
-
-Removed irrelevant features
-
-Encoded categorical variables
-
-Performed train-test split and feature scaling
-
-Trained a Logistic Regression model
-
-Evaluated the model using:
-
-Accuracy score
-
-Confusion matrix
-
-Classification report
-
-✅ Outcome
+### ✅ Outcome
 
 The model successfully identifies customers at risk of churning, highlighting key factors such as age, balance, and customer activity. This task demonstrates effective use of classification modeling and performance evaluation.
